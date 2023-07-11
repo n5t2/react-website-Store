@@ -5,7 +5,8 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Women from "./pages/Women";
+import Women from "./pages/Women.js";
+import Men from "./pages/Men.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
           <Route path="/menu" exact component={Menu} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
-          <Route path= "Women" exact component ={Women}/>
+          <Route path= "/women" exact component ={Women}/>
+          <Route path= "/men" exact component ={Men}/>
         </Switch>
         <Footer />
       </Router>
@@ -27,3 +29,4 @@ function App() {
 }
 
 export default App;
+//

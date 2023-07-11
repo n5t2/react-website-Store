@@ -1,24 +1,24 @@
-import R from "../assets/VintageRed.jpg";
-import WomenNike from "../assets/Psg.jpg";
-import WomenNike2 from "../assets/KidsNike.jpg";
-import WomenNike3 from "../assets/WomenNike3.jpg";
+import VintageRed from "../assets/VintageRed.jpg";
+import Psg from "../assets/Psg.jpg";
+import KidsNike from "../assets/RealMadrid.jpg";
+import WomenNike from "../assets/Mentality.jpg";
 import Wings from "../assets/Wings.jpg";
 import ManUTD from "../assets/ManUTD.jpg";
 
-export const WomenList = [
+export const MenuList = [
   {
-    name: "Female nike clothing 1",
-    image: R,
+    name: "Vintage Red Top",
+    image: VintageRed,
     price: 54.99,
   },
   {
-    name: "Female Nike clothing 2",
-    image: WomenNike2,
+    name: "PSG top",
+    image: Psg,
     price: 69.99,
   },
   {
-    name: "Female Nike clothing 3",
-    image: WomenNike3,
+    name: "Kids Nike top",
+    image: KidsNike,
     price: 35.99,
   },
   {
