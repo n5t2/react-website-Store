@@ -19,7 +19,7 @@ function Navbar() {
           <Link to="/Men"> Mens </Link>
         <Link to="/Women"> Women </Link>
         <Link to="/Kids"> Kids </Link>
-        <Link to="/Offer"> Offers </Link>
+        <Link to="/Offer"> Social Media links </Link>
         <Link to="/Football"> Football tops </Link>
           <Link to="/menu"> Menu </Link>
           <Link to="/about"> About </Link>
@@ -32,7 +32,7 @@ function Navbar() {
         <Link to="/Men"> Mens </Link>
         <Link to="/Women"> Women </Link>
         <Link to="/Kids"> Kids </Link>
-        <Link to="/Offer"> Offers </Link>
+        <Link to="/Offer"> Social Media links </Link>
         <Link to="/Football"> Football tops </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
@@ -45,3 +45,4 @@ function Navbar() {
 }
 
 export default Navbar;
+//

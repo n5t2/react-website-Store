@@ -1,6 +1,6 @@
 import React from "react";
 
-function WomenItems({ image, name, price }) {
+function WomenItem({ image, name, price }) {
   return (
     <div className="WomenItems">
       <div style={{ backgroundImage: `url(${image})` }}> </div>
@@ -10,5 +10,5 @@ function WomenItems({ image, name, price }) {
   );
 }
 
-export default WomenItems;
+export default WomenItem;
 //

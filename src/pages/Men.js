@@ -1,20 +1,20 @@
 import React from "react";
-import { MenuList } from "../helpers/MenuList";
-import MenuItem from "../components/MenuItem";
-import "../styles/Menu.css";
+import { MenList } from "../helpers/MenList";
+import MenItem from "../components/MenItem";
+import "../styles/Men.css";
 
-function Menu() {
+function Men() {
   return (
-    <div className="menu">
-      <h1 className="menuTitle">Latest in stock</h1>
-      <div className="menuList">
-        {MenuList.map((menuItem, key) => {
+    <div className="Men">
+      <h1 className="MenTitle">Mens clothing</h1>
+      <div className="MenList">
+        {MenList.map((menItem, key) => {
           return (
-            <MenuItem
+            <MenItem
               key={key}
-              image={menuItem.image}
-              name={menuItem.name}
-              price={menuItem.price}
+              image={menItem.image}
+              name={menItem.name}
+              price={menItem.price}
             />
           );
         })}
@@ -23,4 +23,5 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default Men;
+//

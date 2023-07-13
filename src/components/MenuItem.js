@@ -11,3 +11,4 @@ function MenuItem({ image, name, price }) {
 }
 
 export default MenuItem;
+//

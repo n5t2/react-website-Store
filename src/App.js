@@ -7,6 +7,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Women from "./pages/Women.js";
 import Men from "./pages/Men.js";
+import Kids from "./pages/Kids.js";
+import FootballTops from "./pages/FootballTops";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -21,12 +23,14 @@ function App() {
           <Route path="/contact" exact component={Contact} />
           <Route path= "/women" exact component ={Women}/>
           <Route path= "/men" exact component ={Men}/>
+          <Route path= "/kids" exact component ={Kids}/>
+          <Route path= "/footballtops" exact component ={FootballTops}/>
         </Switch>
         <Footer />
       </Router>
     </div>
   );
 }
-
+ 
 export default App;
 //

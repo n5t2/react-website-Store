@@ -1,8 +1,8 @@
-import R from "../assets/VintageRed.jpg";
-import WomenNike from "../assets/Psg.jpg";
-import WomenNike2 from "../assets/KidsNike.jpg";
+import R from "../assets/R.jpg";
+import WomenNike from "../assets/WomenNike.jpg";
+import WomenNike2 from "../assets/WomenNike2.jpg";
 import WomenNike3 from "../assets/WomenNike3.jpg";
-import Wings from "../assets/Wings.jpg";
+import Wings from "../assets/RealMadrid.jpg";
 import ManUTD from "../assets/ManUTD.jpg";
 
 export const WomenList = [
@@ -27,14 +27,14 @@ export const WomenList = [
     price: 17.99,
   },
   {
-    name: "Wings",
+    name: "Real Madrid for females",
     image: Wings,
     price: 54.99,
   },
   {
-    name: "Manchester united top",
+    name: "Manchester united top for females",
     image: ManUTD,
     price: 69.99,
   },
 ];
-//
+export default WomenList;

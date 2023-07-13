@@ -1,30 +1,30 @@
 import VintageRed from "../assets/VintageRed.jpg";
-import Psg from "../assets/Psg.jpg";
+import Psg from "../assets/BorussiaDortmund.jpg";
 import KidsNike from "../assets/RealMadrid.jpg";
 import WomenNike from "../assets/Mentality.jpg";
 import Wings from "../assets/Wings.jpg";
-import ManUTD from "../assets/ManUTD.jpg";
+import ManUTD from "../assets/Psg.jpg";
 
-export const MenuList = [
+export const MenList = [
   {
     name: "Vintage Red Top",
     image: VintageRed,
     price: 54.99,
   },
   {
-    name: "PSG top",
+    name: "Borrussia Dortmund Shirt",
     image: Psg,
     price: 69.99,
   },
   {
-    name: "Kids Nike top",
+    name: "Real Madrid Shirt",
     image: KidsNike,
     price: 35.99,
   },
   {
-    name: "Womens nike top",
+    name: "Mentality top",
     image: WomenNike,
-    price: 17.99,
+    price: 69.99,
   },
   {
     name: "Wings",
@@ -32,9 +32,10 @@ export const MenuList = [
     price: 54.99,
   },
   {
-    name: "Manchester united top",
+    name: "Psg home top",
     image: ManUTD,
     price: 69.99,
   },
 ];
-//
+
+export default MenList;

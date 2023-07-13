@@ -1,4 +1,4 @@
-.Men {
+.Kids {
     width: 100%;
     height: auto;
     display: flex;
@@ -6,12 +6,12 @@
     align-items: center;
     flex-direction: column;
   }
-  .Men .MenTitle {
+  .Kids .KidsTitle {
     font-family: cursive;
     font-size: 60px;
   }
   
-  .MenList {
+  .KidsList {
     width: 70vw;
     height: auto;
     display: grid;
@@ -21,20 +21,20 @@
   
   /* MENU ITEM STYLING */
   
-  .MenItem {
+  .KidsItems {
     border-radius: 15px;
     width: 300px;
     height: 350px;
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
-  .MenItem:hover {
+  .KidsItems:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
   }
   
-  .MenItem div {
+  .KidsItems div {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -44,19 +44,19 @@
     background-size: cover;
   }
   
-  .MenItem h1,
-  .MenItem p {
+  .KidsItems h1,
+  .KidsItems p {
     margin-left: 20px;
   }
   
   @media only screen and (max-width: 1300px) {
-    .menList {
+    .KidsList {
       grid-template-columns: 1fr 1fr;
     }
   }
   
   @media only screen and (max-width: 800px) {
-    .MenList {
+    .KidsList {
       grid-template-columns: 1fr;
     }
   }

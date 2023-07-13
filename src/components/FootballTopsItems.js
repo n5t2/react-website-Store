@@ -1,8 +1,8 @@
 import React from "react";
 
-function MenItem({ image, name, price }) {
+function FootballTopsItems({ image, name, price }) {
   return (
-    <div className="MenItem">
+    <div className="FootballTopsItems">
       <div style={{ backgroundImage: `url(${image})` }}> </div>
       <h1> {name} </h1>
       <p> £{price} </p>
@@ -10,5 +10,5 @@ function MenItem({ image, name, price }) {
   );
 }
 
-export default MenItem;
+export default FootballTopsItems;
 //
