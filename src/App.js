@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import Women from "./pages/Women.js";
 import Men from "./pages/Men.js";
 import Kids from "./pages/Kids.js";
-import FootballTops from "./pages/FootballTops";
+import FootballTops from "./pages/FootballTops.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {

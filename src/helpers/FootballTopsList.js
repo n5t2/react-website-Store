@@ -1,35 +1,35 @@
-import KidsNike from "../assets/KidsNike.jpg";
-import KidsNike2 from "../assets/KidsNike2.jpg";
-import KidsNike3 from "../assets/KidsNike3.jpg";
-import FutureBack from "../assets/FutureBack.jpg";
-import Wings from "../assets/Wings.jpg";
+import KidsNike from "../assets/BorussiaDortmund.jpg";
+import KidsNike2 from "../assets/RealMadrid.jpg";
+import KidsNike3 from "../assets/Psg.jpg";
+import FutureBack from "../assets/Atletico.jpg";
+import Wings from "../assets/Bayern.jpg";
 import ManUTD from "../assets/ManUTD.jpg";
 
 export const FootballTopsList = [
   {
-    name: "Kids T-shirt",
+    name: "BVB top",
     image: KidsNike,
-    price: 54.99,
+    price: 69.99,
   },
   {
-    name: "Kids T-shirt 2",
+    name: "Real Madrid",
     image: KidsNike2,
-    price:29.99,
+    price:69.99,
   },
   {
-    name: "Kids T-shirt  3",
+    name: "PSG",
     image: KidsNike3,
-    price: 35.99,
+    price: 69.99,
   },
   {
-    name: "Kids Future back T-shirt",
+    name: "Atletico",
     image: FutureBack,
-    price: 17.99,
+    price: 69.99,
   },
   {
-    name: "Kids Wings T-shirt",
+    name: "Bayern ",
     image: Wings,
-    price: 54.99,
+    price: 69.99,
   },
   {
     name: "Manchester united top for Kids",
